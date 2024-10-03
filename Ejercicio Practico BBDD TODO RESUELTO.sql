@@ -103,8 +103,8 @@ CREATE TABLE marco (
 
 -- 1.10 Crear la relación distribución(cifc,codcoche,cantidad)
 
-# DROP TABLE IF EXISTS distribución;
-CREATE TABLE distribución (
+# DROP TABLE IF EXISTS distribucion;
+CREATE TABLE distribucion (
   cifc int UNSIGNED,
   codcoche int UNSIGNED,
   cantidad int UNSIGNED,
@@ -136,7 +136,7 @@ DESC Distribucion;
 
 -- 2.1 Modificar el nombre de la tabla "distribución" por "distribuciones"
 
-RENAME TABLE Distribución TO Distribuciones;
+RENAME TABLE Distribucion TO Distribuciones;
 
 -- 2.2 Comprobar mostrando el listado con el nombre las relaciones de la Base de datos Automóviles
 
@@ -164,7 +164,7 @@ ALTER TABLE distribuciones DROP PVP;
 
 -- 2.8 Modificar el nombre de la tabla "distribuciones" por "distribución"
 
-RENAME TABLE distribuciones TO distribución;
+RENAME TABLE distribuciones TO distribucion;
 
 
 ############ 3. POBLAR LA BASES DE DATOS AUTOMOVILES ############
